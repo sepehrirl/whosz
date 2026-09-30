@@ -1,0 +1,10 @@
+{
+  "name": "whosz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WHOZ — a Telegram social guessing game",
+  "type": "module",
+  "scripts": {"dev":"tsx src/index.ts","build":"tsc","start":"node dist/index.js","test":"vitest run"},
+  "dependencies": {"better-sqlite3":"^11.10.0","dotenv":"^16.6.1","grammy":"^1.38.1"},
+  "devDependencies": {"@types/better-sqlite3":"^7.6.13","@types/node":"^22.15.21","tsx":"^4.19.4","typescript":"^5.8.3","vitest":"^3.1.4"}
+}
